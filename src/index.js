@@ -62,7 +62,7 @@ var systems = require('./core/system').systems;
 var THREE = window.THREE = require('./lib/three');
 var TWEEN = window.TWEEN = require('@tweenjs/tween.js');
 
-var pkg = require('../package');
+var pkg = require('../package.json');
 
 require('./components/index'); // Register standard components.
 require('./geometries/index'); // Register standard geometries.
